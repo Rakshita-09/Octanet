@@ -1,0 +1,180 @@
+#aboutus h2{
+  font-size: larger;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#aboutus p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  font-size: larger;
+  word-spacing: 10px;
+  
+}
+#testimonial h2{
+  font-size: larger;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+#projects h2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+    top:0%;
+  }
+  li {
+    float: right;
+    display: inline;
+  }
+  
+  li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    color:black;
+    font-family: MONTEZ;
+    font-size:50px;
+    font-style: italic;
+
+  }
+  .top-left {
+    position: absolute;
+    top: 60px;
+    left: 16px;
+    color: aliceblue;
+  }
+  
+  
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.testimonial {
+    width: 30%;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 60%;
+    object-fit: cover;
+}
+
+.image-row{
+    display: flex;
+    justify-content: center;
+
+  }
+  .image-row img{
+    margin: 0px;
+    padding: 14px 16px 60px 60px;
+  }
+  img:hover {
+    box-shadow: 0 0 2px 1px black;
+  }
+  #contact li{
+    color:aliceblue;
+    padding: 14px 16px;
+    float:left;
+    
+  }
+  
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    color: white;
+  }
+  
+  .footer1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 15px;
+  }
+  .social-media {
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-wrap: wrap;
+  }
+  .social-media a {
+    color: white;
+    margin: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+  }
+  .social-media a ion-icon {
+    color: white;
+    background-color: black;
+  }
+  .social-media a:hover ion-icon {
+    color: red;
+    transform: translateY(5px);
+  }
+  .footer2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    flex-wrap: wrap;
+  }
+  .footer0 {
+    font-weight: 1200;
+    transition-duration: 1s;
+  }
+  .footer0:hover {
+    color: rgb(243, 168, 7);
+  }
+  .footer2 .heading {
+    font-weight: 900;
+    font-size: 18px;
+  }
+  .footer3 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer2 .heading:hover {
+    color: rgb(243, 168, 7);
+  }
+  .footer2 .div:hover {
+    transform: scale(1.05);
+  }
+  .footer3 h4 {
+    margin: 0 10px;
+  }
+  .footer2 div {
+    margin: 10px;
+  }
